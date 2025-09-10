@@ -23,7 +23,7 @@ const App = () => {
           <span className='font-montserrat text-xs font-medium text-[hsl(228,12%,48%)] line-through'>$169.99</span>
         </div>
         <div className='w-full h-auto '>
-          <button className='w-full h-auto bg-[hsl(158,36%,37%)] flex items-center justify-center gap-3 py-3 rounded-lg ' >
+          <button className='w-full h-auto bg-[hsl(158,36%,37%)] flex items-center justify-center gap-3 py-3 rounded-lg cursor-pointer' >
             <img src={CartIcon} alt=" Cart Icon" className='w-4 h-4' />
             <span className='font-montserrat text-sm font-bold text-white'>Add to Cart</span>
           </button>
